@@ -157,7 +157,8 @@ body {
 
 .btn {
   animation-duration: 0.8s;
-  transition: background 0.8s ease-in-out, color 0.8s ease-in-out;
+  transition: 0.8s ease-in-out, color 0.8s ease-in-out;
+  border-style: none;
 }
 
 .btn:hover {
@@ -296,6 +297,7 @@ body {
 
 .works__card__topics__text {
   padding: 4px 12px;
+  margin: 6px;
   border-radius: 8px;
   list-style: none;
 }
