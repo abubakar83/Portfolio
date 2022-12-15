@@ -993,7 +993,6 @@ body {
   }
 }
 
-
 /* Add media for contact_p */
 @media (min-width: 768px) {
   .contact_p {
@@ -1002,8 +1001,6 @@ body {
   }
 }
 
-
-
 /* add media for contactme */
 @media (min-width: 768px) {
   .contactme {
@@ -1011,16 +1008,12 @@ body {
   }
 }
 
-
-
 /* add media form section */
 @media (min-width: 768px) {
   .formsection {
     padding: 3% 10% 10% 10%;
   }
 }
-
-
 
 /* add media name message e-mail */
 @media (min-width: 768px) {
@@ -1032,8 +1025,6 @@ body {
     margin-right: auto;
   }
 }
-
-
 
 /* add media button */
 @media (min-width: 768px) {
