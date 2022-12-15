@@ -986,18 +986,6 @@ body {
   color: green;
 }
 
-.contact-page {
-  display: flex;
-  flex-direction: column;
-  background-image: url("./images/contact--mobile.png");
-  background-size: 100%;
-  width: 100%;
-  height: 100%;
-  background-color: #6070ff;
-  background-repeat: no-repeat;
-  border-radius: 65px 0 0 0;
-}
-
 /* add image for desktop screen */
 @media (min-width: 768px) {
   .contact-page {
@@ -1005,23 +993,6 @@ body {
   }
 }
 
-.contact_p {
-  /* Primary Text */
-  width: 327px;
-  height: 102px;
-  margin-left: 27px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-
-  /* or 140% */
-  text-align: center;
-
-  /* Primary/B50 */
-  color: #ebebff;
-}
 
 /* Add media for contact_p */
 @media (min-width: 768px) {
@@ -1031,15 +1002,7 @@ body {
   }
 }
 
-.contactme {
-  width: 90%;
-  font-weight: 700;
-  font-size: 40px;
-  margin-bottom: -1%;
-  text-align: center;
-  color: #fff;
-  padding: 70px 10px 20px 10px;
-}
+
 
 /* add media for contactme */
 @media (min-width: 768px) {
@@ -1048,12 +1011,7 @@ body {
   }
 }
 
-.formsection {
-  padding: 25% 10% 10% 10%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+
 
 /* add media form section */
 @media (min-width: 768px) {
@@ -1062,35 +1020,7 @@ body {
   }
 }
 
-#name,
-#mail,
-#msg {
-  /* Container */
-  height: 48px;
-  width: 300px;
-  margin-bottom: 25px;
 
-  /* Mono/White */
-  background: #fff;
-
-  /* Base/100 */
-  border: 1px solid #cfd8dc;
-  border-radius: 8px;
-  padding-left: 20px;
-  padding-top: 5px;
-}
-
-#msg {
-  /* Container */
-  height: 170px;
-  padding-top: 10px;
-}
-
-#msg:hover,
-#name:hover,
-#mail:hover {
-  border: 3px solid green;
-}
 
 /* add media name message e-mail */
 @media (min-width: 768px) {
@@ -1103,33 +1033,11 @@ body {
   }
 }
 
-#get-intouch {
-  width: 135px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 39px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-  border: 1px solid white;
-  border-radius: 6px;
-}
+
 
 /* add media button */
 @media (min-width: 768px) {
   #get-intouch {
     margin: auto;
   }
-}
-
-#get-intouch:hover {
-  border: 3px solid blue;
-}
-
-#get-intouch:active {
-  color: green;
 }
