@@ -33,11 +33,18 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [Portfolio Project] <a name="about-project"></a>
+<!-- PROJECT DESCRIPTION -->
 
-> Describe your project in 1 or 2 sentences..
+# 📖 Abu bakar's Portfolio <a name="about-project"></a>
 
-**[your_project__name]** is a...
+> Describe your project in 1 or 2 sentences.
+
+**[# 📖 Abu bakar's Portfolio]**
+
+> This is my Poerfolio project from Microverse and its the first step to have our own portfolio.
+
+**Mobile** is simply a HTML & CSS based project that develops our understanding with professional portfolio. This also include many configuration
+settings to keep my code clean.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -84,7 +91,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://abubakar83.github.io/PortfolioWeb.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
