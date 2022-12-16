@@ -10,8 +10,17 @@
 body,
 h1,
 h2,
-h3,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
 p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.flex > p {
   margin: 0;
   padding: 0;
 }
@@ -75,6 +84,42 @@ body {
 
 .fz-32 {
   font-size: 32px;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.contactme,
+.about__title {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .fz-20 {
@@ -157,8 +202,7 @@ body {
 
 .btn {
   animation-duration: 0.8s;
-  transition: 0.8s ease-in-out, color 0.8s ease-in-out;
-  border-style: none;
+  transition: background 0.8s ease-in-out, color 0.8s ease-in-out;
 }
 
 .btn:hover {
@@ -230,6 +274,9 @@ body {
 .head__title {
   color: #172b4d;
   width: 10ch;
+  animation-name: rotate_title;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
 }
 
 .head__title span {
@@ -240,6 +287,12 @@ body {
 .head__dsc {
   margin: 0.8rem 0;
   color: #344563;
+  transition: all 1s ease-in-out;
+}
+
+.head__dsc:hover {
+  background-color: #e8ebf3;
+  border-radius: 12px;
 }
 
 .head__link {
@@ -297,7 +350,6 @@ body {
 
 .works__card__topics__text {
   padding: 4px 12px;
-  margin: 6px;
   border-radius: 8px;
   list-style: none;
 }
@@ -605,6 +657,16 @@ body {
   }
 }
 
+@keyframes rotate_title {
+  70% {
+    transform: scale(1.5) rotate(180deg) translateX(-50%);
+  }
+
+  to {
+    transform: scale(1) rotate(720deg) translateX(0);
+  }
+}
+
 @media (max-width: 992px) {
   .navbar__menu {
     visibility: hidden;
@@ -716,6 +778,9 @@ body {
 
   .works__card__text {
     padding: 1rem;
+
+    /* add margin from code reviewer */
+    margin-top: -80px;
   }
 
   .works__card__img {
@@ -897,6 +962,13 @@ body {
   border-radius: 65px 0 0 0;
 }
 
+/* add image for desktop screen */
+@media (min-width: 768px) {
+  .contact-page {
+    background-image: url("./images/contact-bg.png");
+  }
+}
+
 .contact_p {
   /* Primary Text */
   width: 327px;
@@ -915,6 +987,14 @@ body {
   color: #ebebff;
 }
 
+/* Add media for contact_p */
+@media (min-width: 768px) {
+  .contact_p {
+    width: 550px;
+    margin: auto;
+  }
+}
+
 .contactme {
   width: 90%;
   font-weight: 700;
@@ -925,11 +1005,25 @@ body {
   padding: 70px 10px 20px 10px;
 }
 
+/* add media for contactme */
+@media (min-width: 768px) {
+  .contactme {
+    margin-left: 50px;
+  }
+}
+
 .formsection {
   padding: 25% 10% 10% 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+/* add media form section */
+@media (min-width: 768px) {
+  .formsection {
+    padding: 3% 10% 10% 10%;
+  }
 }
 
 #name,
@@ -962,6 +1056,17 @@ body {
   border: 3px solid green;
 }
 
+/* add media name message e-mail */
+@media (min-width: 768px) {
+  #msg,
+  #name,
+  #mail {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 #get-intouch {
   width: 135px;
   font-family: 'Poppins', sans-serif;
@@ -978,57 +1083,17 @@ body {
   border-radius: 6px;
 }
 
+/* add media button */
+@media (min-width: 768px) {
+  #get-intouch {
+    margin: auto;
+  }
+}
+
 #get-intouch:hover {
   border: 3px solid blue;
 }
 
 #get-intouch:active {
   color: green;
-}
-
-/* add image for desktop screen */
-@media (min-width: 768px) {
-  .contact-page {
-    background-image: url("./images/contact-bg.png");
-  }
-}
-
-/* Add media for contact_p */
-@media (min-width: 768px) {
-  .contact_p {
-    width: 550px;
-    margin: auto;
-  }
-}
-
-/* add media for contactme */
-@media (min-width: 768px) {
-  .contactme {
-    margin-left: 50px;
-  }
-}
-
-/* add media form section */
-@media (min-width: 768px) {
-  .formsection {
-    padding: 3% 10% 10% 10%;
-  }
-}
-
-/* add media name message e-mail */
-@media (min-width: 768px) {
-  #msg,
-  #name,
-  #mail {
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-/* add media button */
-@media (min-width: 768px) {
-  #get-intouch {
-    margin: auto;
-  }
 }
