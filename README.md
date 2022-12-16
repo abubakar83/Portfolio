@@ -1,26 +1,13 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
+<div align="center">
 
-Modify this file to match your project and remove sections that don't apply.
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
+  <h3><b>Microverse README Template</b></h3>
 
-After you're finished please remove all the comments and instructions!
--->
+</div>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -49,6 +36,10 @@ After you're finished please remove all the comments and instructions!
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 Abu bakar's Portfolio <a name="about-project"></a>
+
+> Describe your project in 1 or 2 sentences.
+
+**[# 📖 Abu bakar's Portfolio]**
 
 > This is my Poerfolio project from Microverse and its the first step to have our own portfolio.
 
@@ -83,8 +74,6 @@ settings to keep my code clean.
 </details>
 
 <!-- Features -->
-
-> > > > > > > ecdbf8dfb32919d7cc36067bb0683895a31e2085
 
 ### Key Features <a name="key-features"></a>
 
