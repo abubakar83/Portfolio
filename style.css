@@ -295,12 +295,12 @@ body {
   margin: 1rem 0 1.8rem;
 }
 
-/* .works__card__topics__text {
+.works__card__topics__text {
   padding: 4px 12px;
   margin: 6px;
   border-radius: 8px;
   list-style: none;
-} */
+}
 
 .works__card__btn .btn {
   width: 124px;
