@@ -287,8 +287,13 @@ body {
 .head__dsc {
     margin: 0.8rem 0;
     color: #344563;
+    transition: all 1s ease-in-out ;
 }
 
+.head__dsc:hover {
+    background-color: #e8ebf3;
+    border-radius: 12px;
+}
 
 .head__link {
     text-transform: uppercase;
