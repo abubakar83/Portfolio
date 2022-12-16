@@ -35,7 +35,7 @@
 
 # 📖 [Portfolio Project] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> Describe your project in 1 or 2 sentences..
 
 **[your_project__name]** is a...
 
