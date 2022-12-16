@@ -102,7 +102,7 @@ settings to keep my code clean.
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://github.com/abubakar83/Portfolio)
+- [Live Demo Link](https://abubakar83.github.io/PortfolioWeb.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
