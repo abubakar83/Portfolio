@@ -26,11 +26,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📗 Table of Contents
 
-<<<<<<< HEAD
-- [📖 Hello-World](#hello-world)
-=======
 - [📖 About the Project](#Portfolio_Setup)
->>>>>>> ecdbf8dfb32919d7cc36067bb0683895a31e2085
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -50,7 +46,6 @@ After you're finished please remove all the comments and instructions!
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-<<<<<<< HEAD
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 Abu bakar's Portfolio <a name="about-project"></a>
@@ -59,36 +54,16 @@ After you're finished please remove all the comments and instructions!
 
 **Mobile** is simply a HTML & CSS based project that develops our understanding with professional portfolio. This also include many configuration
 settings to keep my code clean.
-=======
-# 📖 [Portfolio Project] <a name="about-project"></a>
-
-> Describe your project in 1 or 2 sentences..
-
-**[your_project__name]** is a...
->>>>>>> ecdbf8dfb32919d7cc36067bb0683895a31e2085
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-<<<<<<< HEAD
-> This projet used for only
-=======
 > Describe the tech stack and include only the relevant sections that apply to your project.
->>>>>>> ecdbf8dfb32919d7cc36067bb0683895a31e2085
 
 <details>
   <summary>Client</summary>
   <ul>
-<<<<<<< HEAD
-    <li><a href="https://developer.mozilla.org/es/docs/Web/HTML">HTML</a></li>
-  </ul>
-  <ul>
-    <li><a href="https://developer.mozilla.org/es/docs/Web/CSS">CSS</a></li>
-  </ul>
-</details>
-
-=======
     <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
@@ -109,7 +84,8 @@ settings to keep my code clean.
 
 <!-- Features -->
 
->>>>>>> ecdbf8dfb32919d7cc36067bb0683895a31e2085
+> > > > > > > ecdbf8dfb32919d7cc36067bb0683895a31e2085
+
 ### Key Features <a name="key-features"></a>
 
 > Describe between 1-3 key features of the application.
