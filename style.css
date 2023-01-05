@@ -246,6 +246,28 @@ body {
   z-index: 100;
 }
 
+.mobilemenu{
+  z-index: 99;
+  font-size: 40px;
+  color: white;
+  position:absolute;
+  display: none;
+  width: 300px;
+  height: 100vh;
+  color: blueviolet;
+}
+
+.active{
+  display: flex;
+  flex-direction: column;
+  color: red;
+background-color: rgba(0, 0, 255, 0.8);
+
+
+}
+
+
+
 .head::before {
   content: "";
   position: absolute;
